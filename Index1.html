@@ -1,21 +1,102 @@
 <html>
-    <body style="background-color: lightblue; text-align: center;">
-        <title>Marvel Super Heroes</title>
-    </head>
-    <body align="center" bgcolor="lightblue">
-      <h1>Marvel Super Heroes</h1>  
-       <h3>Captain America</h3>
-       <h1>Marvel Super Heroes</h1>
-       <p>Captain America is a fictional superhero appearing in American comic books published by Marvel Comics.</p>
-         <h3>Iron Man</h3>
-         <p>Iron Man is a fictional superhero appearing in American comic books published by Marvel Comics.</p>
-         <h3>Spider-Man</h3>
-         <p>Spider-Man is a fictional superhero appearing in American comic books published by Marvel Comics.</p>
-         <h3>Thor</h3>
-         <p>Thor is a fictional superhero appearing in American comic books published by Marvel Comics.</p>
-         <h3>Hulk</h3>
-         <p>Hulk is a fictional superhero appearing in American comic books published by Marvel Comics.</p>
-         <h3>Doom</h3>
-         <p>Doom is a fictional supervillain appearing in American comic books published by Marvel Comics.</p>
-    </body>
+
+<body style="background-color: #f5f6f7; text-align: center;"></body>
+<style>
+    .cards {
+        /* Background-color: rgb(91, 176, 202); */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* centers the cards */
+        align-items: stretch;
+        /* same height for all cards */
+    }
+
+    .container {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px rgba(28, 122, 36, 0.521);
+        background-color: rgb(34, 82, 2);
+    }
+
+    .heroes {
+        background-color: lightgray;
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .herotype {
+        background-color: lightyellow;
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+</style>
+
+<head>
+    <title>Marvel Super Heroes</title>
+</head>
+<h1>Marvel Super Heroes</h1>
+<p>Marvel Super Heroes are fictional characters appearing in American comic books published by Marvel Comics.</p>
+<div class="cards">
+    <div class="container">
+        <div class="heroes">
+            <h3>Captain America</h3>
+        </div>
+        <div class="herotype">
+            <p>Captain America is a fictional superhero appearing in American comic books published by Marvel Comics.
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="heroes">
+            <h3>Iron Man</h3>
+        </div>
+        <div class="herotype">
+            <p>Iron Man is a fictional superhero appearing in American comic books published by Marvel Comics.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="heroes">
+            <h3>Spider-Man</h3>
+        </div>
+        <div class="herotype">
+            <p>Spider-Man is a fictional superhero appearing in American comic books published by Marvel Comics.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="heroes">
+            <h3>Thor</h3>
+        </div>
+        <div class="herotype">
+            <p>Thor is a fictional superhero appearing in American comic books published by Marvel Comics.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="heroes">
+            <h3>Hulk</h3>
+        </div>
+        <div class="herotype">
+            <p>Hulk is a fictional superhero appearing in American comic books published by Marvel Comics.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="heroes">
+            <h3>Doom</h3>
+        </div>
+        <div class="herotype">
+            <p>Doom is a fictional supervillain appearing in American comic books published by Marvel Comics.</p>
+        </div>
+    </div>
+</div>
+</body>
+
 </html>
